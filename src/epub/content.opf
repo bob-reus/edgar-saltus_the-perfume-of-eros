@@ -19,6 +19,7 @@
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">displayTransformability</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
@@ -28,6 +29,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Perfume of Eros</dc:title>
 		<meta property="file-as" refines="#title">Perfume of Eros, The</meta>
+		<meta property="dcterms:alternative" refines="#title">The Yellow Fay</meta>
 		<dc:subject id="subject-1">New York (N.Y.) -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Man-woman relationships -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Trials (Murder) -- Fiction</dc:subject>
@@ -40,40 +42,41 @@
 		<meta property="term" refines="#subject-3">sh2008112616</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008107179</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">Two intertwined love triangles descend into further turmoil when a body is found on a bench in Gramercy Park, New York.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Fanny Price has long hoped that Royal Loftus would court her, but the heir to the supernally rich Loftus family refuses to commit himself. Fanny is ideal, he thinks, but too ambitious, “with a perfect mania for matrimony.” Instead, he turns his attention to the far less affluent Marie Durand, sweeping her off her feet and proposing to her without ever making good on his promise.&lt;/p&gt;
+			&lt;p&gt;Fanny, rather disappointed by this turn of events, marries Arthur Annandale on a whim; his engagement to her friend Sylvia Waldron has just been broken off, and the events that led to it are hazy in his mind. These two intertwined love triangles are thrown into turmoil when, one morning, a body is found on a bench in Gramercy Park.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Perfume of Eros&lt;/i&gt; caused a minor stir following the high-profile murder of Stanford White in 1906; according to the &lt;i&gt;San Francisco News Letter&lt;/i&gt;, there were remarkable similarities between the book and actual events. &lt;a href="https://standardebooks.org/ebooks/edgar-saltus"&gt;Edgar Saltus&lt;/a&gt; hastened to point out in a letter to the editor, that the publication of The Perfume of Eros preceded the White’s murder by a year.&lt;/p&gt;
+			&lt;p&gt;Saltus would later take the central plot of &lt;i&gt;The Perfume of Eros&lt;/i&gt; and some of his short stories, and rework them into &lt;i&gt;The Paliser Case&lt;/i&gt;. For Standard Ebooks, the decision was made to produce the original novel.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/33207</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/perfumeoferosfif00saltrich</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-saltus_the-perfume-of-eros</meta>
 		<dc:creator id="author">Edgar Saltus</dc:creator>
 		<meta property="file-as" refines="#author">Saltus, Edgar</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">Edgar Everson Saltus</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Saltus</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80036685</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Ernest Lawson</dc:contributor>
+		<meta property="file-as" refines="#artist">Lawson, Ernest</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Ernest_Lawson</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr93027556</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Bryan Ness</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Ness, Brian</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Bob Reus</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Reus, Bob</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.bobre.us/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
